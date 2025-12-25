@@ -1,0 +1,52 @@
+{
+  "name": "ArduinoGotchi M5 Enhanced",
+  "description": "A real Tamagotchi P1 emulator for M5StickC Plus2 with enhanced 90s retro features, animated starfield background, sound effects, and WiFi portal system.",
+  "version": "1.0",
+  "author": "Enhanced by AI Assistant",
+  "website": "https://github.com/your-repo/ArduinoGotchi-M5",
+  "category": "Game",
+  "subcategory": "Virtual Pet",
+  "board": "M5StickC Plus2",
+  "chip": "ESP32",
+  "firmware": {
+    "file": "ArduinoGotchi-M5-v1.0.bin",
+    "size": 1235136,
+    "md5": "26390e4cad2e02a846d8ef2a9899d4a0"
+  },
+  "features": [
+    "Full Tamagotchi P1 emulation",
+    "90s retro visual effects",
+    "Animated starfield background", 
+    "Sound toggle (double-tap B)",
+    "Visual effects toggle (hold B)",
+    "Art explosion effect (A+B+PWR)",
+    "Auto-save every 2 minutes",
+    "Deep sleep power management",
+    "Enhanced 240x135 LCD display",
+    "WiFi portal system (disabled for performance)"
+  ],
+  "controls": {
+    "A": "Left button / Select / Feed",
+    "B": "Middle button / Light / Play",
+    "PWR": "Right button / Status / Confirm",
+    "Double-tap B": "Toggle sound on/off",
+    "Hold B (2s)": "Toggle visual effects",
+    "A+PWR": "Menu page scrolling",
+    "A+B+PWR": "Art explosion effect"
+  },
+  "instructions": [
+    "First boot: Set the clock using A (hours), B (minutes), PWR (confirm)",
+    "Feed your pet regularly to keep it happy",
+    "Clean up waste when it appears", 
+    "Play games to increase happiness",
+    "Watch your pet grow from baby to adult over time",
+    "Game state saves automatically every 2 minutes",
+    "Hold B for 2+ seconds to toggle between 90s colors and classic mode"
+  ],
+  "license": "GPLv2",
+  "created": "2024-12-25",
+  "compatibility": {
+    "m5stick-c-plus2": true,
+    "esp32": true
+  }
+}
