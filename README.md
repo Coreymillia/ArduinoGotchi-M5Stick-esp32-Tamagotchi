@@ -21,9 +21,9 @@ This is a port of the ArduinoGotchi (Tamagotchi P1 emulator) to the M5StickC Plu
 
 | M5StickC Button | Tamagotchi Function |
 |----------------|-------------------|
-| BtnA (Side)    | Left Button       |
-| BtnB (Front)   | Middle Button     |
-| BtnPWR (Power) | Right Button      |
+| BtnA (Front)    | M5 Button       |
+| BtnB (Side)   | Right (bottom) Button     |
+| BtnPWR (Power) | Left(top) Button      |
 
 ## Build Instructions
 
@@ -38,9 +38,10 @@ This is a port of the ArduinoGotchi (Tamagotchi P1 emulator) to the M5StickC Plu
 ## Usage
 
 - **First time setup**: Press the middle button (BtnB) to configure the clock
-- **Long press middle button (5s)**: Reset to egg state
+- **Long press Bottom button (5s)**: Reset to egg state
 - **Long press left button (5s)**: Enter deep sleep mode (10 minutes)
 - **Auto-save**: Game state is saved automatically every 2 minutes
+- **Sound toggle** Double press bottom button. 
 
 ## Display
 
@@ -75,3 +76,7 @@ This M5StickC Plus2 port includes several optimizations:
 ## Contributing
 
 Feel free to submit issues or improvements for the M5StickC Plus2 port!
+
+## Credit 
+
+https://github.com/RBEGamer/TamagotchiESP32 for original repo. 
